@@ -1,0 +1,13 @@
+---
+title: modulo 3
+author: ricardo mayer
+date: '2021-01-11'
+slug: []
+categories: []
+tags: []
+Description: ''
+Tags: []
+Categories: []
+DisableComments: no
+weight: 30
+---

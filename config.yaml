@@ -1,0 +1,58 @@
+baseURL: /
+languageCode: en
+DefaultContentLanguage: en
+title: Website of este curso
+theme: anatole
+summarylength: 10
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+pygmentsCodefencesGuessSyntax: yes
+params:
+  author: Ricardo Mayer
+  customCss: []
+  customJs: []
+  description: Materiales de este curso
+  doNotLoadAnimations: no
+  favicon: favicons/
+  images: images/site-feature-image.png
+  keywords: ''
+  mainSections: post
+  math:
+    enable: no
+    use: katex
+  profilePicture: images/profile.png
+  simpleAnalytics: {}
+  socialIcons:
+    - icon: fab fa-linkedin
+      title: Linkedin
+      url: https://de.linkedin.com/
+    - icon: fab fa-github
+      title: GitHub
+      url: https://github.com/ricardomayerb/base-anatole/
+    - icon: fab fa-instagram
+      title: instagram
+      url: https://www.instagram.com/
+    - icon: fas fa-envelope
+      title: e-mail
+      url: mailto:ricardo.mayer@udp.cl
+  title: Curso de X
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 100
+    # - identifier: posts
+    #   name: Posts
+    #   url: /post/
+    #   weight: 200
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 200
+    - identifier: contact
+      name: Contact 
+      url: /contact/
+      weight: 300
